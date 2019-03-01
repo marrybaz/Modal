@@ -10,7 +10,7 @@ a('close').addEventListener('click', function () {
 
 
 window.addEventListener('click', function (event)  {
-  if (event.target == a('modal') {
+  if (event.target == a('modal')) {
     a('modal').style.display = "none";
   }
 })
