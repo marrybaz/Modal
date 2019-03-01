@@ -1,17 +1,17 @@
 let a = id => document.getElementById(id);
 
 a('btn').addEventListener('click', function () {
-  modal.style.display = "block";
+  a('modal').style.display = "block";
 });
 
 a('close').addEventListener('click', function () {
-  modal.style.display = "none";
+  a('modal').style.display = "none";
 });
 
 
 window.addEventListener('click', function (event)  {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == a('modal') {
+    a('modal').style.display = "none";
   }
 })
 
